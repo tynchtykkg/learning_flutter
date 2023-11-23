@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learning_flutter/scaffold_widget.dart';
+import 'package:learning_flutter/text_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ScaffoldWidget(title: 'Flutter Demo Home Page'),
+      home: const TextWidget(title: 'Flutter Demo Home Page'),
     );
   }
 }

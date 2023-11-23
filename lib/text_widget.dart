@@ -64,6 +64,25 @@ class TextWidget extends StatelessWidget {
                 height: 3,
               ),
             ),
+            Text.rich(
+              TextSpan(
+                text: "Using the Text.rich constructor, the Text widget ",
+                children: [
+                  TextSpan(
+                    text: "can display a paragraph with ",
+                    style: TextStyle(
+                      color: Colors.red,
+                    ),
+                  ),
+                  TextSpan(
+                    text: "differently styled TextSpans",
+                    style: TextStyle(
+                      backgroundColor: Colors.amber,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
